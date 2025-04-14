@@ -1,0 +1,345 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 elements display block */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+html{
+  font-family: 'Roboto', sans-serif;
+  
+  color: #000000;
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ),
+      url(https://koktobe.com/storage/pages/November2024/7uRflLeuBR7NRxPF6oz5.webp) no-repeat center center/cover;
+
+    color: white;
+    font-family: sans-serif;
+    background-attachment: fixed;
+  }
+
+/* Контейнер */
+.container {
+  width: 90%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* Шапка */
+header {
+  background-image: url(/images/Main.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-bottom: 5%;
+}
+
+
+.mainpage_maintxt{
+    min-height: 350px;
+
+}/* Главный текст */
+.mainpage_maintxt1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 800;
+  font-size: 9vw;
+  margin-top: 100px;
+  margin-bottom: 70px;
+  color: #ffffff;
+}
+
+.mainpage_txt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    font-size: 3vw;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+.menu_txt{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif !important
+}
+/* Меню блок */
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 100px;
+  border-radius: 30px;
+  background-color: #f5e5e538;
+  padding: 16px;
+  
+  
+}
+
+.menu1 {
+    background-image: url(/images/menu1.jpg);
+    background-position-y: 22%;
+    background-size: cover;
+    color: #272525;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 160px;
+    min-width: 90%;
+    font-size: clamp(20px, 4vw, 32px);
+    line-height: 1.2;
+    margin: 20px 10px;
+    font-weight: 900;
+    letter-spacing: 20px;
+  }
+
+.menu2 {
+  background-image: url(/images/menu2.jpg);
+  background-size: cover;
+  background-position-y: 17%;
+    color: #ffffffdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    min-height: 160px;
+    min-width: 90%;
+    font-size: clamp(20px, 4vw, 32px);
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 10px;
+    letter-spacing: 20px;
+}
+.map{
+    background-color: #ffffff3d;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+.map_txt{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    font-family: "Manrope", sans-serif !important;
+    margin: 1rem 0;
+}
+
+.map-container {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer {
+    
+    color: white;
+    padding: 2rem 0;
+}
+footer .col-lg-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    
+}
+
+.footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav li {
+    margin-bottom: 1.5rem;
+}
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    font-family: "Manrope", sans-serif !important
+
+}
+
+.footer-nav a:hover {
+    color: #D7B56D;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.footer-heading {
+    color: #D7B56D;
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.foot_phone {
+    color: white;
+    text-decoration: none;
+}
+
+.foot_phone:hover {
+    color: #D7B56D;
+}
+
+.footer-section {
+    margin-top: 2rem;
+}
+
+footer p {
+    margin: 0 0 0.5rem 0;
+}
+
+footer .col-12 a {
+    color: white;
+    text-decoration: none;
+}
+
+footer .col-12 a:hover {
+    color: #D7B56D;
+}
+footer .container-fluid {
+    background: url(https://koktobe.com/img/uzor_3.svg) bottom right no-repeat #222;
+    border-radius: 2.5rem 2.5rem 0 0;
+    padding: 4rem;
+}
+/* footer {
+    background-color: #000;
+    color: white;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #D7B56D;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Manrope", sans-serif !important
+}
+
+footer li {
+    margin-bottom: 1.5rem;
+    
+}
+
+footer li a span {
+    border-bottom: none;
+    margin-bottom: 1.5rem;
+}
+
+footer .foot_phone {
+    color: white;
+    text-decoration: none;
+}
+
+footer .foot_phone:hover {
+    color: #D7B56D;
+}
+
+footer b {
+    color: #D7B56D;
+    font-size: 1.5rem;
+    font-weight: 400 !important;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+footer p {
+    margin: 0 0 0.5rem 0;
+}
+
+footer .col-12 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer .col-12 a {
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+footer .container-fluid {
+    background: url(https://koktobe.com/img/uzor_3.svg) bottom right no-repeat #222;
+    border-radius: 2.5rem 2.5rem 0 0;
+    padding: 4rem;
+}
+footer .col-lg-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10rem;
+    
+}
+ */
